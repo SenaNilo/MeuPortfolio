@@ -718,8 +718,10 @@ footer ul li a:hover{
 
     /* #region Formações */
     .curves{
+        width: 100%;
+    }
+    .curves svg{
         width: 150%;
-        transform: translate(-25%, -1px);
     }
     section.formacoes{
         width: 100vw;
@@ -972,8 +974,10 @@ footer ul li a:hover{
 
     /* #region Formações */
     .curves{
+        width: 100%;
+    }
+    .curves svg{
         width: 150%;
-        transform: translate(-25%, -1px);
     }
     section.formacoes{
         width: 100vw;
