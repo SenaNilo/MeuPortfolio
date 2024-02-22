@@ -642,7 +642,7 @@ footer ul li a:hover{
         height: 175px;
     }
     .parallax{
-        background: url(img/parallax/full_illustration.png);
+        background: url(img/parallax/full_illustration_mobile.png);
         background-size: cover;
         background-position: 75% 0px;
     }
@@ -890,7 +890,7 @@ footer ul li a:hover{
         height: 240px;
     }
     .parallax{
-        background: url(img/parallax/full_illustration.png);
+        background: url(img/parallax/full_illustration_mobile.png);
         background-size: cover;
         background-position: 75% 0px;
     }
