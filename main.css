@@ -15,9 +15,12 @@ html{
     overflow-x: hidden;
 }
 main{
-    overflow: hidden;
+    
     padding-bottom: 20px;
     background: #001a3f;
+}
+main>*+*{
+    overflow: hidden;
 }
 /* #region animacoes */
 @keyframes parallax{
@@ -562,6 +565,7 @@ section.projects h1{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    overflow: inherit;
 }
 .contrate img{
     width: 100%;
@@ -639,7 +643,7 @@ footer ul li a:hover{
         display: none;
     }
     section.banner{
-        height: 175px;
+        height: 200px;
     }
     .parallax{
         background: url(img/parallax/full_illustration_mobile.png);
@@ -969,7 +973,7 @@ footer ul li a:hover{
         margin-top: 20px;
         width: 160%;
         height: 300px;
-        transform: translateX(-5%);
+        transform: translateX(-10%);
         scale: 0.9;
     }
     /* #endregion */
@@ -1110,7 +1114,7 @@ footer ul li a:hover{
         z-index: 1;
     }
     .contrate a{
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
     .contrate h1{
         transform: translateY(20px);
