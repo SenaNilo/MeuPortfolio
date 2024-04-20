@@ -126,7 +126,7 @@ am5.ready(function() {
         language: "PHP",
         value: 1
         }, {
-        language: "MySql",
+        language: "SQL",
         value: 1
         }, {
         language: "C",
