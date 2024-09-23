@@ -68,14 +68,14 @@ am5.ready(function() {
       shadowBlur: 5
     })
     
-    // series.ticks.template.setAll({
-    //   strokeOpacity:0.4,
-    //   strokeDasharray:[2,2]
-    // })
+    series.ticks.template.setAll({
+      strokeOpacity:0.4,
+      strokeDasharray:[2,2]
+    })
     
-    // series.states.create("hidden", {
-    //   endAngle: -90
-    // });
+    series.states.create("hidden", {
+      endAngle: -90
+    });
     
     // Set data
     // https://www.amcharts.com/docs/v5/charts/percent-charts/pie-chart/#Setting_data
