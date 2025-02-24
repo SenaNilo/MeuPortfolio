@@ -1,4 +1,12 @@
 am5.ready(function() {
+    const anoAtual = new Date().getFullYear();
+    const tempoInicioEtec = anoAtual - 2021;
+    const tempoInicioTCCEtec = anoAtual - 2022;
+    const tempoInicioFatec = anoAtual - 2023;
+    //se passar de julho adiciona meio
+    var semestre = new Date().getMonth(); // 6 == Julho
+    semestre = (semestre >= 6) ? 0.5 : 0;
+    console.log(semestre)
         
     // Create root element
     // https://www.amcharts.com/docs/v5/getting-started/#Root_element
@@ -115,29 +123,30 @@ am5.ready(function() {
     // Set data
     var data = [{
         language: "HTML5",
-        value: 2.5
+        value: tempoInicioEtec + semestre
         }, {
         language: "CSS3",
-        value: 2.5
+        value: tempoInicioEtec + semestre
         }, {
         language: "JavaScript",
-        value: 2.5
+        value: tempoInicioEtec + semestre
         }, {
         language: "PHP",
-        value: 1
+        value: tempoInicioTCCEtec + semestre
         }, {
-        language: "SQL",
-        value: 1
-        }, {
-        language: "C",
-        value: 0.5
-        }, {
-        language: "C++",
-        value: 1
-        }, {
+        language: "MySql",
+        value: tempoInicioTCCEtec + semestre
+        },{
         language: "C#",
         value: 1.5
-    }];
+        },{
+            language: "Java",
+            value: 1
+        },{
+            language: "ReactTS",
+            value: 0.5
+        }
+    ];
     
     xAxis.data.setAll(data);
     series.data.setAll(data);
